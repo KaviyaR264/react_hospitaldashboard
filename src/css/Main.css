@@ -1,0 +1,32 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr; /* 60% to left panel, 40% to right panel */
+  grid-gap: 10px; /* Adjust the gap between columns as needed */
+}
+
+.left-panel {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Divide the left panel into three equal parts */
+  grid-gap: 20px; /* Add gap between grid items */
+}
+.left-subpanel {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); /* Adjust as needed */
+  grid-gap: 20px; /* Add gap between grid items */
+}
+
+.left-subpanel:nth-child(1) {
+  grid-row: 1; 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+}
+
+.left-subpanel:nth-child(2) {
+  grid-row: 2; 
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+}
+
+.right-panel {
+  grid-row: span 2; 
+}

@@ -1,0 +1,39 @@
+{
+  "doctorlist":[
+  {
+    "name": "Dr. Jay Sony",
+    "department": "Specialist Cardiology",
+    "status": "Available"
+  },
+  {
+    "name": "Dr. Ethan Mason",
+    "department": "Specialist Dentist",
+    "status": "Available"
+  },
+  {
+    "name": "Dr. William Christ",
+    "department": "Specialist Neurologist",
+    "status": "Available"
+  },
+  {
+    "name": "Dr. Ryan Michael",
+    "department": "Oncologist",
+    "status": "Absance"
+  },
+  {
+    "name": "Dr. Joseph Jayden",
+    "department": "Anesthesiologist",
+    "status": "Available"
+  },
+  {
+    "name": "Dr. Ava Addison",
+    "department": "Gynecologist",
+    "status": "Available"
+  },
+  {
+    "name": "Dr. Grace Isabella",
+    "department": "Pulmonologist",
+    "status": "Available"
+  }
+]
+}

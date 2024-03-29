@@ -1,0 +1,54 @@
+.icon-style {
+    color: #3C29B5; /* Change the color as needed */
+    font-size: 35px; /* Change the font size as needed */
+  }
+
+.heading {
+  color: #3C29B5; 
+  font-size: 14px;
+}
+
+.card-container {
+  justify-content: left;
+  padding: 0;
+  margin: 0;
+}
+
+.doctor-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.doctor-info {
+  flex: 1;
+}
+
+.doctor-name {
+  font-weight: bold;
+  color: black;
+  margin-right: 10px;
+  font-size: small;
+}
+
+.department {
+  font-size: 10px; /* Adjust the font size as needed */
+}
+
+.status {
+  font-size: 14px; /* Adjust the font size as needed */
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #F9F9FE;
+  cursor: pointer;
+}
+
+.status.available {
+  color: green;
+}
+
+.status.absance {
+  color: red;
+}

@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: auto; /* Push the search bar to the left */
+    margin-bottom: 10px; /* Add margin to bottom */
+  }
+  
+  .search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    width: 600px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center; /* Align icons vertically */
+  }
+  
+  .icon {
+    margin-right: 50px; /* Adjust as needed */
+  }
+  
+  .avatar {
+    margin-left: auto; /* Push avatar to the right */
+  }
+  

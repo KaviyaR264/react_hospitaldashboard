@@ -1,0 +1,18 @@
+[
+    {
+      "cardname": "doctor",
+      "title": "Total Doctors",
+      "count": 224
+    },
+    {
+      "cardname": "patient",
+      "title": "Total Patients",
+      "count": 3543
+    },
+    {
+      "cardname": "employee",
+      "title": "Total Employee",
+      "count": 987
+    }
+  ]
+  

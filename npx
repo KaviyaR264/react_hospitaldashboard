@@ -1,0 +1,14 @@
+JSON Server started on PORT :3501
+Press CTRL-C to stop
+Watching data/reports.json...
+
+( ˶ˆ ᗜ ˆ˵ )
+
+Index:
+http://localhost:3501/
+
+Static files:
+Serving ./public directory if it exists
+
+Endpoints:
+http://localhost:3501/reports
